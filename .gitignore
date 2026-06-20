@@ -1,0 +1,36 @@
+# Rust
+/target
+**/*.rs.bk
+Cargo.lock
+
+# Windows
+*.exe
+*.dll
+*.pdb
+Thumbs.db
+Desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+._*
+
+# Claude
+.claude/
+CLAUDE.md
+
+# Graphify output (generated docs)
+graphify-out/
+
+# Logs
+*.log
+
+# Build artifacts
+/ss-cli.exe
+/ss-service.exe

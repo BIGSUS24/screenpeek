@@ -1,0 +1,13 @@
+[package]
+name = "ss-encoder"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+ss-core = { path = "../core" }
+ss-capture = { path = "../capture" }
+anyhow = { workspace = true }
+thiserror = { workspace = true }
+tracing = { workspace = true }
+bytes = "1"
+jpeg-encoder = "0.6"

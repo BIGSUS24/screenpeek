@@ -1,0 +1,15 @@
+[package]
+name = "ss-cli"
+version.workspace = true
+edition.workspace = true
+
+[[bin]]
+name = "ss-cli"
+path = "src/main.rs"
+
+[dependencies]
+ss-core = { path = "../core" }
+ss-server = { path = "../server" }
+anyhow = { workspace = true }
+clap = { version = "4", features = ["derive"] }
+hostname = "0.4"
